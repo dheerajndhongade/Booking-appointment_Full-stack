@@ -8,4 +8,10 @@ router.get("/appointments", getUsersController.getUsers);
 
 router.post("/appointments", getUsersController.postUsers);
 
+router.get("/appointments/:id", getUsersController.getUserById);
+
+router.delete("/appointments/:id", getUsersController.postDelete);
+
+router.put("/appointments/:id", getUsersController.postEdit);
+
 module.exports = router;

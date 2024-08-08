@@ -13,8 +13,8 @@ let User = sequelize.define("users", {
     type: Sequelize.STRING,
     allowNull: false,
   },
-  phonenumber: {
-    type: Sequelize.INTEGER,
+  phone: {
+    type: Sequelize.STRING,
     allowNull: false,
   },
   email: {
